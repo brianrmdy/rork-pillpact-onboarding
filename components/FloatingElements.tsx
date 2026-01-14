@@ -17,14 +17,14 @@ interface FloatingElement {
 }
 
 const ELEMENTS: FloatingElement[] = [
-  { icon: 'pill', startX: width * 0.1, startY: height * 0.15, size: 24, duration: 3000, delay: 0, color: Colors.primary, opacity: 0.15 },
-  { icon: 'heart', startX: width * 0.85, startY: height * 0.12, size: 20, duration: 3500, delay: 200, color: '#FF6B8A', opacity: 0.2 },
-  { icon: 'shield', startX: width * 0.08, startY: height * 0.55, size: 22, duration: 4000, delay: 400, color: Colors.accent, opacity: 0.15 },
-  { icon: 'bell', startX: width * 0.88, startY: height * 0.45, size: 18, duration: 3200, delay: 600, color: Colors.warning, opacity: 0.2 },
-  { icon: 'check', startX: width * 0.15, startY: height * 0.75, size: 16, duration: 2800, delay: 800, color: Colors.success, opacity: 0.18 },
-  { icon: 'sparkles', startX: width * 0.82, startY: height * 0.7, size: 20, duration: 3600, delay: 1000, color: '#FFD700', opacity: 0.22 },
-  { icon: 'pill', startX: width * 0.92, startY: height * 0.28, size: 16, duration: 3400, delay: 300, color: Colors.primaryDark, opacity: 0.12 },
-  { icon: 'heart', startX: width * 0.05, startY: height * 0.35, size: 14, duration: 3800, delay: 500, color: '#FF8FAB', opacity: 0.16 },
+  { icon: 'pill', startX: width * 0.1, startY: height * 0.22, size: 24, duration: 3000, delay: 0, color: Colors.primary, opacity: 0.15 },
+  { icon: 'heart', startX: width * 0.85, startY: height * 0.2, size: 20, duration: 3500, delay: 200, color: '#FF6B8A', opacity: 0.2 },
+  { icon: 'shield', startX: width * 0.08, startY: height * 0.5, size: 22, duration: 4000, delay: 400, color: Colors.accent, opacity: 0.15 },
+  { icon: 'bell', startX: width * 0.88, startY: height * 0.42, size: 18, duration: 3200, delay: 600, color: Colors.warning, opacity: 0.2 },
+  { icon: 'check', startX: width * 0.15, startY: height * 0.68, size: 16, duration: 2800, delay: 800, color: Colors.success, opacity: 0.18 },
+  { icon: 'sparkles', startX: width * 0.82, startY: height * 0.62, size: 20, duration: 3600, delay: 1000, color: '#FFD700', opacity: 0.22 },
+  { icon: 'pill', startX: width * 0.92, startY: height * 0.32, size: 16, duration: 3400, delay: 300, color: Colors.primaryDark, opacity: 0.12 },
+  { icon: 'heart', startX: width * 0.05, startY: height * 0.38, size: 14, duration: 3800, delay: 500, color: '#FF8FAB', opacity: 0.16 },
 ];
 
 function FloatingIcon({ element }: { element: FloatingElement }) {

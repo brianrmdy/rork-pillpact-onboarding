@@ -357,9 +357,9 @@ const styles = StyleSheet.create({
   container: {
     width,
     paddingHorizontal: 24,
+    paddingTop: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    overflow: 'hidden',
   },
   content: {
     alignItems: 'center',
@@ -393,7 +393,9 @@ const styles = StyleSheet.create({
   },
   iconWrapper: {
     marginBottom: 32,
+    marginTop: 10,
     position: 'relative',
+    overflow: 'visible',
   },
   iconRing: {
     position: 'absolute',
@@ -406,11 +408,11 @@ const styles = StyleSheet.create({
     left: -10,
   },
   iconRingOuter: {
-    width: 150,
-    height: 150,
-    borderRadius: 75,
-    top: -20,
-    left: -20,
+    width: 140,
+    height: 140,
+    borderRadius: 70,
+    top: -15,
+    left: -15,
   },
   iconContainer: {
     borderRadius: 36,

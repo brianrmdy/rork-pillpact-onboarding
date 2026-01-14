@@ -347,7 +347,6 @@ const styles = StyleSheet.create({
   },
   backgroundShapes: {
     ...StyleSheet.absoluteFillObject,
-    overflow: 'hidden',
   },
   backgroundCircle: {
     position: 'absolute',
@@ -423,6 +422,7 @@ const styles = StyleSheet.create({
   scrollContent: {
     alignItems: 'center',
     flexGrow: 1,
+    paddingTop: 10,
   },
   footer: {
     paddingHorizontal: 24,
