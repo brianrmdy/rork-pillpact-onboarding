@@ -30,10 +30,10 @@ interface PaywallSlideProps {
 }
 
 const FEATURES = [
-  { icon: <Zap size={18} color={Colors.primary} />, text: 'Unlimited medication tracking' },
-  { icon: <Users size={18} color={Colors.accent} />, text: 'Family sharing (up to 5 members)' },
-  { icon: <TrendingUp size={18} color={Colors.warning} />, text: 'Advanced analytics & insights' },
-  { icon: <Shield size={18} color={Colors.trust} />, text: 'Priority support & cloud backup' },
+  { icon: <Zap size={18} color={Colors.primary} />, text: 'Track unlimited medications' },
+  { icon: <Users size={18} color={Colors.accent} />, text: 'Share with up to 5 family members' },
+  { icon: <TrendingUp size={18} color={Colors.warning} />, text: 'Advanced wellness analytics' },
+  { icon: <Shield size={18} color={Colors.trust} />, text: 'Priority support & secure cloud sync' },
 ];
 
 export default function PaywallSlide({
@@ -176,9 +176,9 @@ export default function PaywallSlide({
         </Animated.View>
 
         <Animated.View style={[styles.textContainer, { transform: [{ translateY: slideAnim }] }]}>
-          <Text style={styles.title}>Unlock PillPact Pro</Text>
+          <Text style={styles.title}>Upgrade to MediFlow Pro</Text>
           <Text style={styles.subtitle}>
-            Get the most out of your medication journey with premium features
+            Unlock premium features for a complete wellness experience
           </Text>
         </Animated.View>
 

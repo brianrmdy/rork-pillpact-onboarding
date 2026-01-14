@@ -123,7 +123,7 @@ export default function SignUpSlide({
         <Animated.View style={[styles.iconWrapper, { transform: [{ translateY: slideAnim }] }]}>
           <View style={styles.iconContainer}>
             <LinearGradient
-              colors={[Colors.accent, '#059669']}
+              colors={[Colors.accent, '#3DBDB5']}
               style={styles.iconGradient}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
@@ -136,9 +136,9 @@ export default function SignUpSlide({
         </Animated.View>
 
         <Animated.View style={[styles.textContainer, { transform: [{ translateY: slideAnim }] }]}>
-          <Text style={styles.title}>Create Your Account</Text>
+          <Text style={styles.title}>Welcome to MediFlow</Text>
           <Text style={styles.subtitle}>
-            Start your journey to better medication adherence in seconds
+            Sign up in seconds and start your wellness journey
           </Text>
         </Animated.View>
 

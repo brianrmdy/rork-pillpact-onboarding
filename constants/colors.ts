@@ -1,36 +1,36 @@
 export default {
-  primary: '#0A7EA4',
-  primaryLight: '#E8F4F8',
-  primaryDark: '#065A75',
-  
-  accent: '#10B981',
-  accentLight: '#D1FAE5',
-  
-  trust: '#1E40AF',
-  trustLight: '#DBEAFE',
-  
+  primary: '#FF6B6B',
+  primaryLight: '#FFE5E5',
+  primaryDark: '#E85454',
+
+  accent: '#4ECDC4',
+  accentLight: '#D4F4F2',
+
+  trust: '#45B7D1',
+  trustLight: '#E0F4F9',
+
   background: '#FFFFFF',
-  backgroundSecondary: '#F8FAFC',
-  backgroundTertiary: '#F1F5F9',
-  
-  text: '#0F172A',
-  textSecondary: '#475569',
-  textMuted: '#94A3B8',
-  
+  backgroundSecondary: '#F9FAFB',
+  backgroundTertiary: '#F3F4F6',
+
+  text: '#1A202C',
+  textSecondary: '#4A5568',
+  textMuted: '#A0AEC0',
+
   border: '#E2E8F0',
-  borderLight: '#F1F5F9',
-  
-  success: '#10B981',
-  warning: '#F59E0B',
-  error: '#EF4444',
-  
+  borderLight: '#F7FAFC',
+
+  success: '#48BB78',
+  warning: '#ECC94B',
+  error: '#F56565',
+
   white: '#FFFFFF',
   black: '#000000',
-  
+
   gradient: {
-    start: '#0A7EA4',
-    end: '#10B981',
+    start: '#FF6B6B',
+    end: '#4ECDC4',
   },
-  
-  overlay: 'rgba(15, 23, 42, 0.5)',
+
+  overlay: 'rgba(26, 32, 44, 0.5)',
 };

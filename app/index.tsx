@@ -44,78 +44,78 @@ const INTRO_SLIDES = [
   {
     id: 'welcome',
     icon: <Pill size={56} color={Colors.primary} strokeWidth={1.5} />,
-    badge: 'TRUSTED BY 50,000+ USERS',
-    title: 'Never Miss a Dose Again',
-    subtitle: 'Join thousands who have transformed their medication routine with smart, reliable reminders.',
+    badge: 'JOIN 100K+ HAPPY USERS',
+    title: 'Your Health, On Autopilot',
+    subtitle: 'Smart medication tracking that fits your lifestyle. Effortless reminders that actually work.',
     stats: [
-      { value: '98%', label: 'Adherence' },
-      { value: '4.9', label: 'App Rating' },
-      { value: '50K+', label: 'Users' },
+      { value: '97%', label: 'Success Rate' },
+      { value: '4.8', label: 'Rating' },
+      { value: '100K+', label: 'Active Users' },
     ],
   },
   {
     id: 'reminders',
     icon: <Bell size={56} color={Colors.primary} strokeWidth={1.5} />,
-    title: 'Smart Reminders That Work',
-    highlight: 'Personalized for you',
-    subtitle: 'Set flexible schedules that adapt to your life. Get gentle nudges at the perfect time—never intrusive, always helpful.',
+    title: 'Reminders That Feel Natural',
+    highlight: 'Intelligent & Adaptive',
+    subtitle: 'Smart scheduling learns your routine. Get timely nudges that integrate seamlessly into your day.',
   },
   {
     id: 'tracking',
     icon: <Heart size={56} color={Colors.primary} strokeWidth={1.5} />,
-    title: 'Track Your Progress',
-    highlight: 'Visual insights',
-    subtitle: 'See your adherence history at a glance. Celebrate streaks and stay motivated with clear, beautiful reports.',
+    title: 'See Your Wellness Journey',
+    highlight: 'Beautiful Analytics',
+    subtitle: 'Track patterns, build streaks, and celebrate wins. Beautifully designed insights that motivate.',
   },
   {
     id: 'family',
     icon: <Users size={56} color={Colors.primary} strokeWidth={1.5} />,
-    title: 'Peace of Mind for Loved Ones',
-    subtitle: 'Optionally share updates with family or caregivers. They can check in without being intrusive.',
+    title: 'Care for Those You Love',
+    subtitle: 'Share progress with family seamlessly. Everyone stays informed, nobody feels monitored.',
     testimonial: {
-      text: "PillPact helped my mother stay on track with her heart medication. I get peace of mind knowing she's taken care of.",
-      author: 'Sarah M.',
+      text: "MediFlow made it so easy to help my dad with his medications. The shared updates give me peace of mind every day.",
+      author: 'Michael T.',
       role: 'Family Caregiver',
     },
   },
   {
     id: 'security',
     icon: <Shield size={56} color={Colors.primary} strokeWidth={1.5} />,
-    badge: 'HIPAA COMPLIANT',
-    title: 'Your Privacy, Protected',
-    subtitle: 'Bank-level encryption keeps your health data safe. We never sell your information. Your health journey stays yours.',
+    badge: 'BANK-GRADE SECURITY',
+    title: 'Your Data, Your Control',
+    subtitle: 'Military-grade encryption. Zero data selling. Complete privacy. Your health information stays exclusively yours.',
     stats: [
-      { value: '256-bit', label: 'Encryption' },
-      { value: '100%', label: 'Private' },
+      { value: 'AES-256', label: 'Encryption' },
+      { value: 'Zero', label: 'Data Sharing' },
     ],
   },
 ];
 
 const GOAL_OPTIONS = [
-  { id: 'never_miss', label: 'Never miss a dose', icon: <Target size={22} color={Colors.primary} /> },
-  { id: 'build_habit', label: 'Build a medication habit', icon: <Calendar size={22} color={Colors.accent} /> },
-  { id: 'track_family', label: 'Help family members', icon: <Users size={22} color={Colors.trust} /> },
-  { id: 'health_insights', label: 'Get health insights', icon: <Heart size={22} color={Colors.error} /> },
+  { id: 'never_miss', label: 'Stay consistent with meds', icon: <Target size={22} color={Colors.primary} /> },
+  { id: 'build_habit', label: 'Build healthy routines', icon: <Calendar size={22} color={Colors.accent} /> },
+  { id: 'track_family', label: 'Support loved ones', icon: <Users size={22} color={Colors.trust} /> },
+  { id: 'health_insights', label: 'Track my wellness', icon: <Heart size={22} color={Colors.error} /> },
 ];
 
 const TRACKING_FOR_OPTIONS = [
-  { id: 'myself', label: 'Just myself', description: 'Personal medication tracking', icon: <User size={22} color={Colors.primary} /> },
-  { id: 'family', label: 'Family members', description: 'Track for loved ones too', icon: <Users size={22} color={Colors.accent} /> },
-  { id: 'caregiving', label: 'Caregiving role', description: 'Professional or family care', icon: <Heart size={22} color={Colors.trust} /> },
+  { id: 'myself', label: 'Just me', description: 'Personal health management', icon: <User size={22} color={Colors.primary} /> },
+  { id: 'family', label: 'Me + family', description: 'Track for multiple people', icon: <Users size={22} color={Colors.accent} /> },
+  { id: 'caregiving', label: 'Caregiver mode', description: 'Managing care for others', icon: <Heart size={22} color={Colors.trust} /> },
 ];
 
 const MED_COUNT_OPTIONS = [
-  { id: '1-2', label: '1-2 medications', icon: <Pill size={22} color={Colors.primary} /> },
-  { id: '3-5', label: '3-5 medications', icon: <Pill size={22} color={Colors.accent} /> },
-  { id: '6-10', label: '6-10 medications', icon: <Pill size={22} color={Colors.warning} /> },
-  { id: '10+', label: 'More than 10', icon: <Pill size={22} color={Colors.trust} /> },
+  { id: '1-2', label: '1-2 meds', icon: <Pill size={22} color={Colors.primary} /> },
+  { id: '3-5', label: '3-5 meds', icon: <Pill size={22} color={Colors.accent} /> },
+  { id: '6-10', label: '6-10 meds', icon: <Pill size={22} color={Colors.warning} /> },
+  { id: '10+', label: '10+ meds', icon: <Pill size={22} color={Colors.trust} /> },
 ];
 
 const SCHEDULE_OPTIONS = [
-  { id: 'morning', label: 'Morning', icon: <Clock size={22} color={Colors.warning} /> },
+  { id: 'morning', label: 'Morning routine', icon: <Clock size={22} color={Colors.warning} /> },
   { id: 'afternoon', label: 'Afternoon', icon: <Clock size={22} color={Colors.primary} /> },
   { id: 'evening', label: 'Evening', icon: <Clock size={22} color={Colors.accent} /> },
-  { id: 'multiple', label: 'Multiple times daily', icon: <Clock size={22} color={Colors.trust} /> },
+  { id: 'multiple', label: 'Throughout the day', icon: <Clock size={22} color={Colors.trust} /> },
 ];
 
 type SlideType = 'intro' | 'signup' | 'personalization' | 'notification' | 'paywall';
@@ -385,8 +385,8 @@ export default function OnboardingScreen() {
               key={slideConfig.id}
               isActive={isActive}
               icon={<Target size={44} color={Colors.primary} strokeWidth={1.5} />}
-              title="What brings you here?"
-              subtitle="Help us personalize your experience"
+              title="What's your goal?"
+              subtitle="We'll personalize MediFlow just for you"
               options={GOAL_OPTIONS}
               selectedOptions={selectedGoals}
               onOptionSelect={handleGoalSelect}
@@ -400,8 +400,8 @@ export default function OnboardingScreen() {
               key={slideConfig.id}
               isActive={isActive}
               icon={<User size={44} color={Colors.primary} strokeWidth={1.5} />}
-              title="Who are you tracking for?"
-              subtitle="We'll customize features for your needs"
+              title="Who's this for?"
+              subtitle="Tailor the experience to your situation"
               options={TRACKING_FOR_OPTIONS}
               selectedOptions={selectedTrackingFor}
               onOptionSelect={handleTrackingForSelect}
@@ -414,8 +414,8 @@ export default function OnboardingScreen() {
               key={slideConfig.id}
               isActive={isActive}
               icon={<Pill size={44} color={Colors.primary} strokeWidth={1.5} />}
-              title="How many medications?"
-              subtitle="This helps us optimize your dashboard"
+              title="How many meds?"
+              subtitle="We'll optimize your dashboard layout"
               options={MED_COUNT_OPTIONS}
               selectedOptions={selectedMedCount}
               onOptionSelect={handleMedCountSelect}
@@ -428,8 +428,8 @@ export default function OnboardingScreen() {
               key={slideConfig.id}
               isActive={isActive}
               icon={<Clock size={44} color={Colors.primary} strokeWidth={1.5} />}
-              title="When do you take them?"
-              subtitle="Select all times that apply"
+              title="What's your schedule?"
+              subtitle="Choose all that apply to your routine"
               options={SCHEDULE_OPTIONS}
               selectedOptions={selectedSchedule}
               onOptionSelect={handleScheduleSelect}
@@ -467,7 +467,7 @@ export default function OnboardingScreen() {
   return (
     <View style={styles.container}>
       <LinearGradient
-        colors={['#F0F9FF', '#FFFFFF', '#F8FAFC', '#F0FDF4']}
+        colors={['#FFF5F5', '#FFFFFF', '#F0FDFA', '#FFF5F5']}
         style={StyleSheet.absoluteFill}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
@@ -493,7 +493,7 @@ export default function OnboardingScreen() {
               <Pill size={18} color={Colors.white} strokeWidth={2.5} />
             </LinearGradient>
           </View>
-          <Text style={styles.logoText}>PillPact</Text>
+          <Text style={styles.logoText}>MediFlow</Text>
         </View>
         
         {showSkipButton && (
@@ -563,7 +563,7 @@ export default function OnboardingScreen() {
                   disabled={!canContinue()}
                 >
                   <LinearGradient
-                    colors={isLastIntroSlide ? [Colors.accent, '#059669'] : [Colors.primary, Colors.primaryDark]}
+                    colors={isLastIntroSlide ? [Colors.accent, '#3DBDB5'] : [Colors.primary, Colors.primaryDark]}
                     style={styles.buttonGradient}
                     start={{ x: 0, y: 0 }}
                     end={{ x: 1, y: 1 }}
@@ -590,14 +590,14 @@ export default function OnboardingScreen() {
                   <View style={styles.trustIconContainer}>
                     <Star size={10} color={Colors.warning} fill={Colors.warning} />
                   </View>
-                  <Text style={styles.trustText}>4.9</Text>
+                  <Text style={styles.trustText}>4.8</Text>
                 </View>
                 <View style={styles.trustDivider} />
                 <View style={styles.trustBadge}>
                   <View style={[styles.trustIconContainer, styles.trustIconShield]}>
                     <Shield size={10} color={Colors.accent} />
                   </View>
-                  <Text style={styles.trustText}>HIPAA</Text>
+                  <Text style={styles.trustText}>Secure</Text>
                 </View>
                 <View style={styles.trustDivider} />
                 <View style={styles.trustBadge}>

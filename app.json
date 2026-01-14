@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PillPact Onboarding",
-    "slug": "pillpact-onboarding",
+    "name": "MediFlow",
+    "slug": "mediflow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "app.rork.pillpact-onboarding"
+      "bundleIdentifier": "app.rork.mediflow"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.pillpact_onboarding",
+      "package": "app.rork.mediflow",
       "permissions": [
         "android.permission.VIBRATE"
       ]
