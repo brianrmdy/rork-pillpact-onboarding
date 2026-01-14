@@ -16,7 +16,6 @@ import {
   Shield,
   Users,
   TrendingUp,
-  Star,
   Sparkles,
 } from 'lucide-react-native';
 import * as Haptics from 'expo-haptics';
@@ -291,6 +290,8 @@ export default function PaywallSlide({
             Cancel anytime. You won&apos;t be charged until the trial ends.
           </Text>
 
+          <Text style={styles.noPaymentText}>No Payment Due Now</Text>
+
           <View style={styles.linksContainer}>
             <TouchableOpacity onPress={onRestore}>
               <Text style={styles.linkText}>Restore Purchase</Text>
@@ -305,11 +306,6 @@ export default function PaywallSlide({
             </TouchableOpacity>
           </View>
         </Animated.View>
-
-        <Animated.View style={[styles.guaranteeContainer, { opacity: fadeAnim }]}>
-          <Star size={14} color={Colors.warning} fill={Colors.warning} />
-          <Text style={styles.guaranteeText}>30-day money-back guarantee</Text>
-        </Animated.View>
       </Animated.View>
     </View>
   );
@@ -319,9 +315,9 @@ const styles = StyleSheet.create({
   container: {
     width,
     paddingHorizontal: 24,
-    paddingTop: 4,
-    paddingBottom: 16,
-    justifyContent: 'center',
+    paddingTop: 0,
+    paddingBottom: 24,
+    justifyContent: 'flex-start',
     alignItems: 'center',
   },
   content: {
@@ -565,19 +561,12 @@ const styles = StyleSheet.create({
     height: 12,
     backgroundColor: Colors.border,
   },
-  guaranteeContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    marginTop: 12,
-    backgroundColor: '#FEF3C7',
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 12,
-  },
-  guaranteeText: {
-    fontSize: 12,
-    color: '#92400E',
-    fontWeight: '600' as const,
+  noPaymentText: {
+    fontSize: 14,
+    fontWeight: '700' as const,
+    color: Colors.accent,
+    textAlign: 'center',
+    marginTop: 14,
+    marginBottom: 4,
   },
 });

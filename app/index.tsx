@@ -528,12 +528,14 @@ export default function OnboardingScreen() {
           }
         ]}
       >
-        <OnboardingPagination
-          total={ALL_SLIDES.length}
-          currentIndex={currentIndex}
-          scrollX={scrollX}
-          width={width}
-        />
+{currentSlide?.type !== 'paywall' && (
+          <OnboardingPagination
+            total={ALL_SLIDES.length}
+            currentIndex={currentIndex}
+            scrollX={scrollX}
+            width={width}
+          />
+        )}
 
         {showContinueButton && (
           <>
