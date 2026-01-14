@@ -427,7 +427,7 @@ const styles = StyleSheet.create({
   footer: {
     paddingHorizontal: 24,
     paddingTop: 12,
-    gap: 10,
+    gap: 20,
   },
   buttonContainer: {
     position: 'relative',
