@@ -311,23 +311,23 @@ export default function OnboardingScreen() {
           <Animated.View style={styles.trustBadges}>
             <View style={styles.trustBadge}>
               <View style={styles.trustIconContainer}>
-                <Star size={12} color={Colors.warning} fill={Colors.warning} />
+                <Star size={10} color={Colors.warning} fill={Colors.warning} />
               </View>
-              <Text style={styles.trustText}>4.9 Rating</Text>
+              <Text style={styles.trustText}>4.9</Text>
             </View>
             <View style={styles.trustDivider} />
             <View style={styles.trustBadge}>
               <View style={[styles.trustIconContainer, styles.trustIconShield]}>
-                <Shield size={12} color={Colors.accent} />
+                <Shield size={10} color={Colors.accent} />
               </View>
-              <Text style={styles.trustText}>HIPAA Compliant</Text>
+              <Text style={styles.trustText}>HIPAA</Text>
             </View>
             <View style={styles.trustDivider} />
             <View style={styles.trustBadge}>
               <View style={[styles.trustIconContainer, styles.trustIconCheck]}>
-                <CheckCircle size={12} color={Colors.primary} />
+                <CheckCircle size={10} color={Colors.primary} />
               </View>
-              <Text style={styles.trustText}>No Payment</Text>
+              <Text style={styles.trustText}>Free</Text>
             </View>
           </Animated.View>
         )}
@@ -422,11 +422,12 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     alignItems: 'center',
+    flexGrow: 1,
   },
   footer: {
     paddingHorizontal: 24,
-    paddingTop: 24,
-    gap: 20,
+    paddingTop: 20,
+    gap: 16,
   },
   buttonContainer: {
     position: 'relative',
@@ -470,25 +471,25 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 12,
+    gap: 8,
     marginTop: 8,
     flexWrap: 'wrap',
   },
   trustBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
+    gap: 4,
     backgroundColor: 'rgba(255,255,255,0.9)',
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    borderRadius: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 16,
     borderWidth: 1,
     borderColor: Colors.border,
   },
   trustIconContainer: {
-    width: 20,
-    height: 20,
-    borderRadius: 10,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
     backgroundColor: '#FEF3C7',
     justifyContent: 'center',
     alignItems: 'center',
@@ -500,7 +501,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primaryLight,
   },
   trustText: {
-    fontSize: 12,
+    fontSize: 11,
     color: Colors.textSecondary,
     fontWeight: '600' as const,
   },
