@@ -255,7 +255,7 @@ export default function OnboardingScreen() {
         style={[
           styles.footer, 
           { 
-            paddingBottom: insets.bottom + 24,
+            paddingBottom: insets.bottom + 40,
             transform: [{ translateY: footerSlide }],
           }
         ]}
@@ -426,8 +426,8 @@ const styles = StyleSheet.create({
   },
   footer: {
     paddingHorizontal: 24,
-    paddingTop: 20,
-    gap: 16,
+    paddingTop: 16,
+    gap: 14,
   },
   buttonContainer: {
     position: 'relative',
@@ -515,6 +515,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: Colors.textMuted,
     fontWeight: '500' as const,
-    marginTop: 4,
+    marginTop: 2,
+    marginBottom: 4,
   },
 });
